@@ -5,8 +5,8 @@
 
 - **Système** : Un serveur Linux (ex : Ubuntu) avec Docker et Docker Compose installés.
 - **CPU** : 2 vCPU pour un usage standard de n8n.
-- **Mémoire** : Minimum 8 Go de RAM (prévoir plus pour des workflows complexes).
-- **Stockage** : 512 Mo à 4 Go de SSD pour la base de données et les fichiers. Par défaut, n8n utilise SQLite (fichier `.sqlite` stocké dans `/home/node/.n8n`).
+- **Mémoire** : Minimum 4 Go de RAM (prévoir plus pour des workflows complexes).
+- **Stockage** : 512 Mo à 4 Go de SSD pour la base de données et les fichiers. Par défaut, n8n utilise SQLite (fichier `.sqlite` stocké dans `/home/node/.n8n`).
 - **Persistance** : Un volume Docker doit être monté sur `/home/node/.n8n` pour conserver la base de données et la clé d’encryption.
 
 ## Fichier de configuration Docker Compose
